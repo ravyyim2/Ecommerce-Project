@@ -31,7 +31,7 @@ const Header = () => {
         {/* logo */}
         <Link to={'/'}>
           <div>
-            <img className='w-[40px]' src={Logo} alt='' />
+            <img className='w-[40px]' src={Logo} alt='' /> 
           </div>
         </Link>
         {/* cart */}
@@ -40,7 +40,7 @@ const Header = () => {
           className='cursor-pointer flex relative'
         >
           <BsBag className='text-2xl' />
-          <div className='bg-red-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center'>
+          <div className='bg-pink-500 absolute -right-2 -bottom-2 text-[12px] w-[18px] h-[18px] text-white rounded-full flex justify-center items-center'>
             {itemAmount}
           </div>
         </div>
